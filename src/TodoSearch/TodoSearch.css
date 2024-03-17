@@ -11,6 +11,6 @@
 }
 
 #search-input:focus {
-  outline: 2px solid #888;
+  outline: 2px solid #1f1f1f;
   outline-offset: -2px;
 }

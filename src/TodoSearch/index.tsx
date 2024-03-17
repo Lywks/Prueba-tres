@@ -12,7 +12,7 @@ export function TodoSearch() {
     return (
       <input
         id="search-input"
-        placeholder="Search..."
+        placeholder="Buscar"
         type="text"
         onChange={event => {
           setSearchValue(event.target.value)

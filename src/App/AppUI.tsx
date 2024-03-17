@@ -24,7 +24,7 @@ export function AppUI() {
 
   return (
     <>
-      <h1 id="title">To Do List</h1>
+      <h1 id="title">Lista TODOS</h1>
 
       {error
         ? <TodoListError />

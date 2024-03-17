@@ -16,11 +16,11 @@ const { totalTodos, completedTodos } = useContext(TodoContext)
     )
   } else if (completedTodos === totalTodos) {
     return (
-      <h3>You've completed all your To Dos</h3>
+      <h3>Completaste todos los ToDos</h3>
     )
   } else {
     return (
-      <h3>You've completed { completedTodos } of { totalTodos } To Dos</h3>
+      <h3>Has completado { completedTodos } de  { totalTodos } ToDos</h3>
     )
   }
 }

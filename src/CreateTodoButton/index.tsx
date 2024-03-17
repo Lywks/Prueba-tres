@@ -12,7 +12,7 @@ export function CreateTodoButton() {
         document.body.style.overflow = 'hidden'
       }}
     >
-      Add new
+      Crear ToDO
     </button>
   )
 }
